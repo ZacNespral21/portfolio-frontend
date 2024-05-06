@@ -1,0 +1,111 @@
+.main-content-block {
+    margin-top: 2%;
+  min-height: 500px;
+}
+
+.mobile-float-right{
+    margin-left: 25px;
+}
+
+.content-banner-section {
+  min-height: 250px;
+}
+
+.logo-text {
+  font-size: 2.5rem;
+}
+
+.oobie-bg-blue{
+  background: #0096C7;
+}
+.oobie-bg-blue-dark{
+  background: #2563eb;
+}
+.oobie-text-blue-dark{
+  color: #2563eb;
+}
+.oobie-bg-blue-dark-hover:hover{
+  background: #2563eb;
+}
+.oobie-bg-blue-darker{
+  background: #1E40AF;
+}
+.oobie-text-blue-darker{
+  color: #1E40AF;
+}
+.oobie-border-top-white{
+  border-top: 1px solid #fff;
+}
+
+/* #Mega Menu Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.mega-menu {
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+
+/* #hoverable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hoverable {
+  position: static;
+}
+
+.hoverable>a:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.hoverable:hover .mega-menu {
+  display: block;
+}
+
+
+/* #toggle Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.toggleable>label:after {
+  content: "\25BC";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-input:not(checked)~.mega-menu {
+  display: none;
+}
+
+.toggle-input:checked~.mega-menu {
+  display: block;
+}
+
+.toggle-input:checked+label {
+  color: white;
+  background: #2563eb;
+  /* background: #0096C7; */
+  /* background: #2c5282; */
+  /*@apply oobie-bg-blue-dark */
+}
+
+.toggle-input:checked~label:after {
+  content: "\25B2";
+  font-size: 10px;
+  padding-left: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.footer-block{
+  /* border-top: 1px solid #ccc; */
+  margin-top: 0%;
+}
