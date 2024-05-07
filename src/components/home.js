@@ -13,7 +13,7 @@ export default class Home extends React.Component {
             </div>
           </div>
           <div className="home__social">
-            <a className="home__social-icon" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/zachary-nespral-b0812549">
+            <a className="home__social-icon" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/znespral">
               <i className="bx bxl-linkedin"></i>
             </a>
             <a className="home__social-icon" target="_blank" rel="noreferrer" href="https://stackoverflow.com/users/2434899/zacnespral21">
@@ -46,82 +46,97 @@ export default class Home extends React.Component {
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">HTML/5, CSS/3</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">10</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2012"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">PHP</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">9</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2015"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">JavaScript</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">8</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2012"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">Apache/Nginx/IIS</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">8</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2014"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">MySQL &amp; T-SQL</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">7</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2016"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">AWS Services</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">5</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2018"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">VueJS</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">4</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2020"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">Laravel</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">4</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2018"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">NodeJS</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">4</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2018"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">Cloudflare</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">4</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2018"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">Google Analytics</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">3</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2019"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">ReactJS</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">2</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2020"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">Flutter</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">2</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2020"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">TypeScript</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">2</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2020"), new Date())}</span> Years</div>
             </div>
             <div className="skills__data">
                 <div className="skills__names"><i className="bx bxl-html5 skills__icon"></i><span className="skills__name">Angular</span></div>
                 <div className="skills__bar skills__fullwidth"></div>
-                <div><span className="skills__percentage">1</span> Years</div>
+                <div><span className="skills__percentage">{dateDiff(new Date("1 January 2021"), new Date())}</span> Years</div>
             </div>
           </div>
         </section>
         <section className="work section" id="work"><h2 className="section-title">Work</h2>
           <div className="work__container bd-grid">
+            <a href="https://chambita.zacharynespral.com" target="_blank" rel="noreferrer">
+              <div className="work__img">
+                <img src="https://image.thum.io/get/width/320/crop/600/https://chambita.zacharynespral.com" alt="Oobie"/>
+              </div>
+            </a>
+            <a href="https://bidwinn.zacharynespral.com" target="_blank" rel="noreferrer">
+              <div className="work__img">
+                <img src="https://image.thum.io/get/width/320/crop/600/https://bidwinn.zacharynespral.com" alt="Oobie"/>
+              </div>
+            </a>
+            <a href="https://sunnydays.zacharynespral.com" target="_blank" rel="noreferrer">
+              <div className="work__img">
+                <img src="https://image.thum.io/get/width/320/crop/600/https://sunnydays.zacharynespral.com" alt="Oobie"/>
+              </div>
+            </a>
             <a href="https://www.oobie.io" target="_blank" rel="noreferrer">
               <div className="work__img">
                 <img src="https://image.thum.io/get/width/300/crop/600/https://www.oobie.io" alt="Oobie"/>
@@ -134,7 +149,7 @@ export default class Home extends React.Component {
             </a>
             <a href="https://www.myluckyfans.com" target="_blank" rel="noreferrer">
               <div className="work__img">
-                <img src="https://image.thum.io/get/width/300/crop/600/https://www.myluckyfans.com" alt="My Lucky Fans"/>
+                <img src="https://image.thum.io/get/width/300/crop/600/https://www.myluckyfans.com/login" alt="My Lucky Fans"/>
               </div>
             </a>
             <a href="https://www.larpsen.com" target="_blank" rel="noreferrer">
@@ -238,3 +253,24 @@ export default class Home extends React.Component {
     </>
   };
 };
+
+var datenew = new Date();
+var dateold = new Date("1 January 2000");
+function dateDiff(dateold, datenew){
+  var ynew = datenew.getFullYear();
+  var mnew = datenew.getMonth();
+  var dnew = datenew.getDate();
+  var yold = dateold.getFullYear();
+  var mold = dateold.getMonth();
+  var dold = dateold.getDate();
+  var diff = ynew - yold;
+  if(mold > mnew) diff--;
+  else
+  {
+    if(mold == mnew)
+    {
+      if(dold > dnew) diff--;
+    }
+  }
+  return diff;
+}
