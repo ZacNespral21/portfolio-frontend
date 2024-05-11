@@ -127,9 +127,9 @@ export default class Home extends React.Component {
                 <img src="https://image.thum.io/get/width/320/crop/600/https://chambita.zacharynespral.com" alt="Oobie"/>
               </div>
             </a>
-            <a href="https://bidwinn.zacharynespral.com" target="_blank" rel="noreferrer">
+            <a href="https://bidwin.zacharynespral.com" target="_blank" rel="noreferrer">
               <div className="work__img">
-                <img src="https://image.thum.io/get/width/320/crop/600/https://bidwinn.zacharynespral.com" alt="Oobie"/>
+                <img src="https://image.thum.io/get/width/320/crop/600/https://bidwin.zacharynespral.com" alt="Oobie"/>
               </div>
             </a>
             <a href="https://sunnydays.zacharynespral.com" target="_blank" rel="noreferrer">
